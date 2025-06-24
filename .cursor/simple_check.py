@@ -8,6 +8,7 @@ import sys
 import re
 from pathlib import Path
 
+
 def check_file_compliance(filepath):
     """Claude Codeが指定したファイルの設計適合性を確認"""
     if not Path(filepath).exists():
@@ -18,9 +19,9 @@ def check_file_compliance(filepath):
     
     # 最小限の重要パターンのみチェック
     critical_patterns = {
-        'auto_processing': r'for\s+.*\s+in\s+.*input.*:\s*\n.*process',
-        'background_thread': r'threading\.|multiprocessing\.',
-        'automatic_execution': r'def\s+auto_.*\(',
+        'auto_processing': r'for\s+.*\s+in\s+.*input.*:.*process.*\(',
+        'background_thread': r'(threading|multiprocessing)\.',
+        'automatic_execution': r'def\s+(auto_|automatic_|batch_).*\(',
     }
     
     violations = []
@@ -33,6 +34,7 @@ def check_file_compliance(filepath):
         'violations': violations,
         'compliant': len(violations) == 0
     }
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
