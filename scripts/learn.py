@@ -66,14 +66,14 @@ class LearningEngine:
                     cur.execute("""
                         SELECT original_text, corrected_text, confidence, usage_count, context
                         FROM learning_patterns
-                        WHERE pattern_type = %s AND %s LIKE '%' || original_text || '%'
+                        WHERE pattern_type = %s AND %s LIKE CONCAT('%%', original_text, '%%')
                         ORDER BY confidence DESC, usage_count DESC
                     """, (pattern_type, text))
                 else:
                     cur.execute("""
                         SELECT original_text, corrected_text, confidence, usage_count, context
                         FROM learning_patterns
-                        WHERE %s LIKE '%' || original_text || '%'
+                        WHERE %s LIKE CONCAT('%%', original_text, '%%')
                         ORDER BY confidence DESC, usage_count DESC
                     """, (text,))
                 

@@ -139,7 +139,7 @@ class ContentGenerator:
         # 基本情報
         variables = {
             'title': f'{topic}のご提案',
-            'date': datetime.now().strftime('%Y年%m月%d日'),
+            'date': datetime.now().strftime('%Y年%m月%d日'),  # システム日付を自動取得
             'author_info': '株式会社末武コンサルティング\n末武修平'
         }
         
@@ -196,10 +196,10 @@ class ContentGenerator:
         # 会議データから情報を抽出
         variables = {
             'title': meeting_data.get('title', '会議録'),
-            'datetime': meeting_data.get('datetime', '未定'),
+            'datetime': meeting_data.get('datetime', '[会議開催日時を確認してください]'),
             'location': meeting_data.get('location', '未記載'),
             'agenda': meeting_data.get('agenda', '未記載'),
-            'created_date': datetime.now().strftime('%Y年%m月%d日')
+            'created_date': datetime.now().strftime('%Y年%m月%d日')  # システム日付を自動取得
         }
         
         # 参加者
@@ -238,7 +238,7 @@ class ContentGenerator:
         """ブログ記事を生成"""
         variables = {
             'title': title,
-            'publish_date': datetime.now().strftime('%Y年%m月%d日'),
+            'publish_date': datetime.now().strftime('%Y年%m月%d日'),  # システム日付を自動取得
             'introduction': f'{topic}について考察します。',
             'section1_title': '背景',
             'section1_content': '（背景の説明）',
