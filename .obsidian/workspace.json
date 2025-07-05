@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "74f194556d289061",
+    "type": "split",
+    "children": [
+      {
+        "id": "aedb4abb040c614c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "618d3166b1c5f8af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "outputs/personal/profiles/末武修平_性格分析プロファイル.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "末武修平_性格分析プロファイル"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "845864371c3e4463",
+    "type": "split",
+    "children": [
+      {
+        "id": "d21beab58e779bde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab655d47ede41fa8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "d5e96b8805003b98",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "1c36fc9626711a22",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e893ccda2b1b43aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "9211643b0c032b3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cabb408ffe9ab2d0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "outputs/personal/profiles/末武修平_性格分析プロファイル.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "末武修平_性格分析プロファイルへのバックリンク"
+            }
+          },
+          {
+            "id": "1c115efaf6eae5e3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "outputs/personal/profiles/末武修平_性格分析プロファイル.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "末武修平_性格分析プロファイルからのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "c9916b288f2d7f86",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "d109a1ce3ce50ddf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "outputs/personal/profiles/末武修平_性格分析プロファイル.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "末武修平_性格分析プロファイルのアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false
+    }
+  },
+  "active": "ab655d47ede41fa8",
+  "lastOpenFiles": [
+    "outputs/clients/久仁子さんプロジェクト進捗状況_2025-06-27.md",
+    "input/[LINE]P久仁子.txt",
+    "outputs/clients/久仁子さんプロジェクト進捗状況_2025-06-29.md"
+  ]
+}
